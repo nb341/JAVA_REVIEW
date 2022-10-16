@@ -44,14 +44,15 @@ public class Main {
         }
         System.out.println(s.nextInt());
         //long
+        System.out.println("Enter a long");
         while(!s.hasNextLong()){
             System.out.println("Please enter valid double");
             s.next();
         }
-        System.out.println("Enter a long");
         System.out.println(s.nextLong());
+        System.out.println("Enter a short");
         while(!s.hasNextShort()){
-            System.out.println("Please enter valid double");
+            System.out.println("Please enter valid short");
             s.next();
         }
         System.out.println(s.nextShort());
